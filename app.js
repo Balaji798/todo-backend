@@ -48,6 +48,4 @@ app.use("/complete-task", async (req, res) => {
   }
 });
 
-app.listen(process.env.PORT || 8080, function () {
-  console.log("Express app running on port " + 8080);
-});
+module.exports = app;
